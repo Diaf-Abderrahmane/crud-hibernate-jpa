@@ -14,7 +14,7 @@ public class CruddmoApplication {
 	}
 
 	@Bean
-	public CommandLineRunner commandLineRunner(String[] args) {
+	public CommandLineRunner commandLineRunner() {
 		return runner -> {
 			System.out.println("Hello World");
 		};
